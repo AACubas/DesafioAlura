@@ -1,0 +1,211 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #F3F5FC;
+}
+
+.contenido{
+    position: relative;
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+}
+
+.logo{
+    width: 100%;
+    float: left;
+    background: #F3F5FC;
+   
+}
+.logoimg{
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;
+    background: #F3F5FC;
+
+}
+.titulo{
+    float: inherit;
+    margin-left: 20%;
+    margin-top: 3.64%;
+    font-size: xx-large;
+}
+
+.left{
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+}
+
+.caja{
+    position: absolute;
+    float: left;
+    left: 7.8%;
+    top: 9.25%;
+    width: 61.45%;
+    height: 35%;
+    color: #0a3871;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #F3F5FC;
+    border-radius: 24px;
+}
+
+.right{
+    position: relative;
+    float: right;
+    width: 30%;
+    height: 82%;
+    margin-top: 0%;
+    border-radius: 24px;
+    background: #FFFFFF;
+}
+
+.buttons{
+    position: absolute;
+    float: left;
+    bottom: 18.25%;
+    width: 69.25%;
+    height: 12.5%;
+    background: #F3F5FC;
+    border-radius: 24px;
+}
+.copiar{
+    position: absolute;
+    bottom: 0%;
+    height: 15.1%;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+}
+#munie {
+    margin-left: 12%;
+    margin-top: 2%;
+    width: 70%;
+    height: auto;
+}
+
+#textouno{
+    margin-left: 7%;
+    margin-right: 5%;
+}
+
+#textodos{
+    float: left;
+    margin-top: 1%;
+    margin-left: 8%;
+    margin-bottom: 22.3%;
+    color: #0a3871;
+    border: none;
+    outline: none;
+    font-size: x-large;
+    resize: none;
+    height: 40%;
+    width: 85%;
+}
+#advertencia{
+    margin-left: 16%;
+    margin-bottom: 0.5%;
+}
+#botonEncriptado{
+    padding: 14px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    color: #D8DFE8;
+    background: #0A3871;
+    border-color: #0A3871;
+}
+
+#botonDesencriptado{
+    padding: 14px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 2%;
+    color: #0A3871;
+    background: #D8DFE8;
+    border-color: #0A3871;
+}
+
+#botonCopiar{
+    margin-left: 30%;
+    margin-top: 6%;
+    width: 45%;
+    height: 60%;
+    color: #0A3871;
+    border-color: #0A3871;
+    background: #D8DFE8;
+    border-radius: 24px;
+    display: none;
+    
+}
+::placeholder{
+    color: #0A3871;
+}
+@media  screen and (max-width:980px){
+    
+    .caja{
+        position: absolute;
+        top: 18.25%;
+        font-size: xx-large;
+        bottom: 1%;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        position: relative;
+        width: 100%;
+        bottom: -31%;
+        margin-top: 0%;
+        height: 172%;
+    }
+    .buttons{
+        position: absolute;
+        bottom: 0.25%;
+        width: 99%;
+        height: 27.5%;
+    }
+    #advertencia{
+        margin-left: 25%;
+        margin-bottom: 0.5%;
+        font-size: xx-large;
+    }
+    #munie{
+        display: none;
+    }
+    #textouno{
+        margin-left: 20%;
+        font-size: xxx-large;
+    }
+    #botonEncriptado{
+        margin-left: 17%;
+        width: 33%;
+        font-size: xxx-large;
+    }
+    #botonDesencriptado{
+        width: 33%;
+        font-size: xxx-large;
+    }
+    #textodos{
+        position: absolute;
+        width: 85%;
+        height: 27%;
+        font-size: 40px;
+    }
+    #botonCopiar{
+        position: relative;
+        margin-left: 29%;
+        margin-top: 5%;
+        width: 42%;
+        height: 60%;
+        font-size: xxx-large;
+        color: #0A3871;
+        border-color: #0A3871;
+    }
+}

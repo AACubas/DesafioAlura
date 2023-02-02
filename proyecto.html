@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "UTF-8">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="motor.js"></script>
+</head>
+<body>
+    <div class="contenido">
+        
+        <div class="left">
+            <div class="logo">
+                <img class="logoimg" src="Imagenes/logo.png">
+            </div>
+            <!--Panel izquierdo-->
+            <input class="caja" type="text" id="textosifrado" placeholder="Ingrese una frase">
+            <div class="buttons">
+                <p id="advertencia">&#x24D8 Sólo minúsculas y sin acentos</p>
+                <!--Botón de encriptado-->
+                <button type="button" id="botonEncriptado"> Encriptar </button>
+                <!--Botón de desencriptado-->
+                <button type="button" id="botonDesencriptado">Desencriptar</button>
+            </div>
+        </div>
+        <div class="right">
+            <!--Panel derecho-->
+            <img src="Imagenes/Munieco.png" id="munie">
+            <h1 id="textouno">Ningún mensaje fue encontrado</h1>
+            <textarea id="textodos" name="resultado" id="textoDesencriptado" 
+            cols="40" rows="10"></textarea>
+            <div class="copiar">
+                <!--Botón copiar-->
+                <button type="button" id="botonCopiar">Copiar</button>
+            </div>
+            
+        </div>
+        
+        </div> 
+    </div>
+    
+</body>
+<script>
+   var boton = document.querySelector("#botonEncriptado");
+   boton.onclick = encripta;
+   var boton2 = document.querySelector("#botonDesencriptado");
+   boton2.onclick = desencripta;
+   var boton3 = document.querySelector("#botonCopiar");
+   boton3.onclick=copiar;
+</script>
+
+</html>
